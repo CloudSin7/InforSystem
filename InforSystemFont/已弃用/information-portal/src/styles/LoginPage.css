@@ -1,0 +1,73 @@
+/* 为 LoginPage 添加专属样式 */
+body.login-body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc; /* 柔和的背景色 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 使背景充满整个视窗高度 */
+}
+
+.login-page {
+  background-color: #ffffff; /* 白色背景 */
+  padding: 2rem;
+  border-radius: 10px; /* 圆角边框 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+  width: 300px; /* 固定宽度 */
+  text-align: center; /* 内容居中 */
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333333; /* 深灰色标题 */
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* 使表单垂直排列 */
+}
+
+label {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: #666666; /* 次要文本颜色 */
+  text-align: left;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc; /* 浅灰色边框 */
+  border-radius: 5px; /* 圆角输入框 */
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff; /* 聚焦时变为蓝色边框 */
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.5); /* 聚焦时的边框光晕 */
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* 按钮背景蓝色 */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* 按钮变色动画 */
+}
+
+button:hover {
+  background-color: #0056b3; /* 鼠标悬停时更深的蓝色 */
+}
+
+p {
+  color: red; /* 错误提示文字为红色 */
+  font-size: 0.85rem;
+}

@@ -1,0 +1,68 @@
+/* loginpage.css */
+
+/* 设置整个页面的背景颜色和全局样式 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 使页面高度填满整个浏览器窗口 */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #ff8c00); /* 渐变背景 */
+  background-size: cover;
+  background-position: center;
+}
+
+/* 登录容器样式 */
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  padding: 40px; /* 内边距 */
+  border-radius: 10px; /* 圆角边框 */
+  width: 400px; /* 固定宽度 */
+  max-width: 90%; /* 最大宽度 */
+  text-align: center; /* 文本居中 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+/* 标题样式 */
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333; /* 深灰色字体 */
+}
+
+/* 表单内的输入框样式 */
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px); /* 输入框占据父元素的宽度 */
+  padding: 10px; /* 内边距 */
+  margin: 10px 0; /* 上下外边距 */
+  border: 1px solid #ccc; /* 边框颜色 */
+  border-radius: 5px; /* 圆角 */
+  font-size: 16px; /* 字体大小 */
+}
+
+/* 按钮样式 */
+button[type="submit"] {
+  background-color: #007bff; /* 按钮背景颜色 */
+  color: #ffffff; /* 按钮字体颜色 */
+  padding: 10px 20px; /* 内边距 */
+  border: none; /* 无边框 */
+  border-radius: 5px; /* 圆角 */
+  font-size: 16px; /* 字体大小 */
+  cursor: pointer; /* 鼠标悬停样式 */
+  margin-top: 15px; /* 顶部外边距 */
+  transition: background-color 0.3s, transform 0.2s; /* 过渡效果 */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* 鼠标悬停时的背景色 */
+  transform: scale(1.05); /* 轻微放大 */
+}
+
+/* 错误消息样式 */
+.error {
+  color: #ff0000; /* 红色字体 */
+  font-size: 14px; /* 字体大小 */
+  margin-top: 10px; /* 顶部外边距 */
+}

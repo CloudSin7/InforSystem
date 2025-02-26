@@ -1,0 +1,70 @@
+.notification-detail-page {
+  background-color: #f9f9f9;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.notification-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.notification-header {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.notification-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notification-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.notification-content {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+
+.notification-department {
+  margin-right: 20px;
+}
+
+.notification-time {
+  color: #999;
+}
+
+/* Add emphasis styling for important text */
+.notification-content p {
+  margin: 1em 0;
+}
+
+.notification-content p strong {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.notification-content p em {
+  color: #1976d2;
+  font-style: italic;
+}
+
+.notification-detail-page h1,
+.notification-detail-page p {
+  text-align: justify;
+}
