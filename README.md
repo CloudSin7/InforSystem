@@ -1,6 +1,6 @@
 # InforSystem
  仿照学校信息门户书写的JavaSpringBoot+React项目
-前端是React项目，在Font/information-portal1路径运行命令行输入npm start开启前端服务器运行
+前端是React项目，在Font/information-portal1路径运行命令行输入npm start开启前端服务器运行（如果遇到问题，先删除node_modules文件夹，再install，然后start）
 后端是Idea的Java，使用Spring框架，本地使用Idea打开后开启后端服务，部署服务器可打开后进行打包再部署
 
 项目功能：
